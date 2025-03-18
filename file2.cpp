@@ -21,5 +21,11 @@ int main(){
      cout << "Jumlah perulangan = " << perulanganWhile << endl;
      cout << endl;
      cout << " Perulangan dengan do while" << endl;
-     
+     do{
+        cout << "nilai1 x = " << x << "Lari keliling lapangan!" <<endl;
+        x + rand() % 10;
+        perulanganDoWhile++;
+     }while(x < 7);
+     cout << "Nilai akhir x = " << x << endl;
+     cout << "Jumlah perulangan = " << perulanganDoWhile << endl;
 }
